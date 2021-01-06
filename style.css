@@ -53,8 +53,6 @@
 .half-width{
     float: left;
     width: 40%;
-    margin-left: 5%;
-    padding-left: 2%;
     
 }
 .half-width a{
@@ -75,7 +73,12 @@
 }
 .half-width img {
     width: 100%;
-
+}
+img#img1 {
+    padding-left: 164px;
+}
+#aboutleft{
+    padding-left: 180px;
 }
 #about{
     font-size: 48px;
@@ -130,4 +133,97 @@
     font-size: 16px;
     padding-top:20px;
     color: #C4C4C4;
+}
+.chat-area{
+    background-color: #FFFFFF;
+    width: 100%; 
+    height: 436px;
+    margin: 0 auto;
+}
+.chat-area .chat{
+    width: 1165px;
+    display: flex;
+    margin: 0 auto;
+}
+.chat-area .chat img{
+    width: 906px;
+    height: 226px;
+    display: block;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.chat-area .chat .another{
+    position: absolute;
+    padding: 100px;
+}
+.chat-area .chat .another h1{
+    color: #FFFFFF;
+    padding: 76px 45px 0px 105px;
+    position: relative;
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;
+}
+.chat-area  a{
+    display: block;
+    margin: 187px 146px 122px 831px;
+    position: absolute;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    background-color: #FF8367;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.team{
+	padding-top:100px;
+
+}
+.team .team_top .team_top_h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size:70px;
+	color:#fc9e20;
+	text-align:center;
+}
+.team .team_top a{
+	font-family: 'Bebas Neue', cursive;
+	font-size:70px;
+	color:rgb(0, 0, 0);
+}
+.team .team_top p{
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	color:rgb(0, 0, 0);
+	text-align:center;
+	padding:30px;
+}
+.team .team_bottom img{
+	width: 245px;
+	height: 278px;
+	display: block;
+	float: left;
+    margin-left: 37px;
+}
+.team .team_bottom .teal_lest_pic{
+	margin-left: 0px;
+	padding-left: 37px;
+}
+.busiess{
+    background-color: #F8F9FC;
+    width: 100%;
+}
+.busiess .footer-top{
+    width: 1165px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+#footer p{
+	font-family:Loto;
+	font-size:16px;
+	color: #363958;
+	text-align:center;
+    margin-top:35px;
+    margin-bottom: 35px;
 }
